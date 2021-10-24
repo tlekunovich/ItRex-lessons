@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html,body,h1,p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+ .main-container{
+    background-image: url("./img/bg.png");
+    background-repeat:no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    background-size: cover;
+    font-family: 'Poppins';
+    height: 100vh;
+}
+
+.main-container__menu{
+    background-color:#F9FAFF;
+    width: 560px;
+}
+
+.menu__form{
+    display: flex;
+    flex-direction: column;
+    gap:40px 0;
+    padding-left: 96px;
+    padding-right: 96px;
+}
+.menu__message{
+    font-weight: normal;
+font-size: 15px;
+line-height: 130%;
+color: #A1ABC9;
+}
+.menu__title{
+    margin-top: 264px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 110%;
+}
+
+input{
+    width: 368px;
+    height: 56px;
+    background: #FFFFFF;
+    border: 1px solid #DCE0EC;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 32px rgba(218, 228, 255, 0.16);
+    border-radius: 8px;
+    background-image:url("./img/user.svg");
+    padding-left: 64px;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 24px;
+}
+
+input:focus{
+    border: 1px solid #587ae1;
+    outline: none;
+}
+
+input::placeholder{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 24px;
+    color: #A1ABC9;
+}
+
+input.input__email{
+    background-image:url("./img/email.svg");
+    background-repeat: no-repeat;
+    background-position: 24px 50%;
+}
+
+
+.input__form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 368px;
+    border: 1px solid #DCE0EC;
+    border-radius: 8px;
+}
+
+.menu__button{
+    width: 214px;
+    height: 56px;
+    border-radius: 8px;
+    background: #7297FF;
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 24px;
+    align-items: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 24px;
+    background-image:url("./img/angle-right-b.svg");
+    background-repeat: no-repeat;
+    background-position: 166px 50%;
+    line-height: 24px;
+    cursor: pointer;
+    margin-top: 24px;
+}
+
+.menu__returnPage{
+    background-image:url("./img/angle-left-b.svg");
+    width:25px;
+    height: 25px;
+    margin-top: 264px;
+    cursor: pointer;
+}
+
+.menu_returnPage__group{
+    display: flex;
+    flex-direction: row;
+    gap:0 16px
+
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+    <title>Sign in</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="main-container__menu">
+                <form class="menu__form">
+                    <h1 class="menu__title">Sign In</h1>
+                    <label for="input__email">
+                        <input type="text" id="input__email" class="input__email" placeholder="Email"> 
+                        <small  class="label__email">Email not found. Please check the spelling</small>
+                    </label>
+                    <label for="input__lock">
+                        <div class="input__form">
+                            <input type="password" class="input__lock" placeholder="Password"> 
+                            <div class="password_button-check"></div>
+                        </div>
+                        <small class="label__lock">Password contain unsupported characters</small>
+                    </label>
+                    <button class="menu__button">
+                        Sign In
+                    </button>
+                    <a href="#" class="menu_forgotPassword">Forgot Password?</a>
+                </form>
+            <footer>
+                <div class="footer__text">
+                    Don't have an account?
+                </div>
+                <a href="#" class="footer__a">Sign up</a>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
