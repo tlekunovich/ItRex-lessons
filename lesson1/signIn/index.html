@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Sign in</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="main-container__menu">
+            <form class="menu__form" type="submit" onsubmit="return validateForm()">
+                <h1 class="menu__title">Sign In</h1>
+                <div class="input-wrapper">
+                    <div class="input__form" tabindex="1" id="input__form">
+                        <label for="input__email"></label>
+                        <input id="input__email" type="text" class="input__email" placeholder="Email">
+                    </div>
+                    
+                </div>
+                <div class="input-wrapper">
+                    <div class="input__form" tabindex="1" id="input__form__password1">
+                        <label for="input__password1"></label>
+                        <input id="input__password1" type="password" class="input__lock" id="input__email" placeholder="Password">
+                        <div class="password_button-check" id="password_button-check1"></div>
+                    </div>
+                </div>
+
+                <button class="menu__button" type="submit">
+                    Sign In
+                </button>
+                <a href="/RestorePassword/index.html" onclick="route('RestorePassword')" class="menu_forgotPassword">Forgot Password?</a>
+            </form>
+            <footer>
+                <div class="footer__text">
+                    Don't have an account?
+                </div>
+                <a href="/signUp/index.html" onclick="route('signUn')" class="footer__a">Sign up</a>
+            </footer>
+        </div>
+    </div>
+    <script src="./../router.js"/></script>
+    <script src="./../validation.js"></script>
+    <script src="./../store.js" /> </script>
+    <script src="./localLogic.js" /></script>
+
+</body>
+
+</html>

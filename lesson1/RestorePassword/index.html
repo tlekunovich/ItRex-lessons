@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Restore Password</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="media.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="main-container__menu">
+            <form class="menu__form" type="submit" onsubmit="return validateForm()">
+                <div class="menu_returnPage__group">
+                    <a href="/signIn/index.html" onclick="route('signIn')" class="footer__a"><img
+                            src="./img/angle-left-b.svg" class="menu__returnPage" /></a>
+                    <h1 class="menu__title">Restore Password</h1>
+                </div>
+                <div class="menu__message">
+                    Please use your email address, and we’ll send you the link to reset your password
+                </div>
+                <div class="input-wrapper" id="input-wrapper">
+                    <div class="input__form" tabindex="1" id="input__form">
+                        <label for="input__email"></label>
+                        <input type="text" class="input__email" placeholder="Email" id="input__email" >
+                        <div class="password_button-check"></div>
+                    </div>
+                    <!-- <small class="waring__email">Password contain unsupported characters</small> -->
+                </div>
+                <button class="menu__button" id="menu__button" >
+                    <a href="/RestorePassword2/index.html" disabled="" onclick="route('RestorePassword2')"
+                        class="menu_forgotPassword">
+                        Send Reset Link
+                    </a>
+                </button>
+            </form>
+        </div>
+    </div>
+    <script src="./../router.js"/></script>
+    <script src="./../validation.js"></script>
+    <script src="./../store.js" /> </script>
+    <script src="./localLogic.js" /></script>
+</body>
+
+</html>

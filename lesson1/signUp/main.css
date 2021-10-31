@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+html,
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  background-image: url("./img/bg.png");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  background-size: contain;
+  font-family: "Poppins";
+}
+
+.main-container__menu {
+  background-color: #f9faff;
+  width: 560px;
+}
+
+.menu__form {
+  display: flex;
+  flex-direction: column;
+  padding-left: 96px;
+  padding-right: 96px;
+  gap: 40px;
+}
+
+.menu__title {
+  margin-top: 168px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 110%;
+}
+
+input {
+  width: 368px;
+  height: 56px;
+  background: #ffffff;
+  border: 1px solid #dce0ec;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 32px rgba(218, 228, 255, 0.16);
+  border-radius: 8px;
+  background-image: url("./img/user.svg");
+  padding-left: 64px;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 24px;
+  text-overflow: ellipsis;
+  padding-right: 20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 24px;
+  color: #a1abc9;
+}
+
+input.input__user {
+  background-image: url("./img/user.svg");
+  background-repeat: no-repeat;
+  background-position: 24px 50%;
+  border: none;
+}
+
+input.input__email {
+  background-image: url("./img/email.svg");
+  background-repeat: no-repeat;
+  background-position: 24px 50%;
+  border: none;
+}
+
+input.input__lock {
+  background-image: url("./img/lock.svg");
+  background-repeat: no-repeat;
+  background-position: 24px 50%;
+  border: none;
+}
+
+input.input__check {
+  background-image: url("./img/check.svg");
+  background-repeat: no-repeat;
+  background-position: 24px 50%;
+  border: none;
+}
+
+.password_button-check {
+  background: url("./img/eye-slash.svg");
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 25px;
+  cursor: pointer;
+  margin-right: 25px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+.password_button-check.hide {
+  background: url("./img/eye.png");
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.input__form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 368px;
+  border: 1px solid #dce0ec;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.input__form:active {
+  border: 1px solid #587ae1;
+}
+.input__form:focus {
+  border: 1px solid #587ae1;
+}
+
+.menu__button {
+  width: 146px;
+  height: 56px;
+  border-radius: 8px;
+  background: #7297ff;
+  border: none;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 24px;
+  align-items: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 24px;
+  background-image: url("./img/angle-right-b.svg");
+  background-repeat: no-repeat;
+  background-position: 98px 50%;
+  line-height: 24px;
+  cursor: pointer;
+  margin-top: 24px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  gap: 0 12px;
+  padding-left: 96px;
+  margin-top: 120px;
+  padding-bottom: 79px;
+}
+
+.footer__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 140%;
+  color: #a1abc9;
+}
+
+.footer__a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 130%;
+  color: #7297ff;
+}
+
+small {
+  padding-top: 8px;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 120%;
+  color: #f6657f;
+}

@@ -1,0 +1,93 @@
+@media screen and (max-width: 560px) {
+  .main-container {
+    padding-top: 72px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .main-container__menu {
+    border-radius: 30px 30px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu__form {
+    gap: 24px 0;
+    padding-left: 32px;
+    padding-right: 32px;
+    width: 257px;
+    border-radius: 30px 30px 0 0;
+  }
+
+  .menu__title {
+    margin-top: 62px;
+  }
+
+  .menu__button {
+    margin-top: 8px;
+    width: 122px;
+    height: 48px;
+    font-size: 15px;
+    padding-left: 16px;
+    background-position: 78px 50%;
+  }
+
+  input {
+    width: 215px;
+    height: 40px;
+    padding-left: 48px;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 140%;
+  }
+
+  input::placeholder {
+    font-size: 15px;
+  }
+  input.input__user {
+    background-position: 16px 50%;
+    width: 256px;
+  }
+  input.input__email {
+    background-position: 16px 50%;
+    width: 256px;
+  }
+  input.input__lock {
+    background-position: 16px 50%;
+  }
+
+  input.input__check {
+    background-position: 16px 50%;
+  }
+
+  .input__form {
+    width: 256px;
+  }
+
+  .password_button-check {
+    width: 25px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-top: 72px;
+    padding-left: 0;
+    padding-right: 44px;
+  }
+
+  small {
+    padding-top: 8px;
+  }
+}
+
+@media screen and (min-width: 560px) {
+  .main-container {
+    background-size: auto;
+  }
+}

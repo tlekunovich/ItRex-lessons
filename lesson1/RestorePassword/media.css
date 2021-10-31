@@ -1,0 +1,69 @@
+@media screen and (max-width: 560px) {
+  .main-container {
+    padding-top: 72px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .main-container__menu {
+    border-radius: 30px 30px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu__form {
+    gap: 24px 0;
+    padding-left: 32px;
+    padding-right: 32px;
+    width: 257px;
+    border-radius: 30px 30px 0 0;
+  }
+  .menu__title {
+    margin-top: 32px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .menu__button {
+    margin-top: 8px;
+    width: 198px;
+    height: 48px;
+    font-size: 17px;
+    padding-left: 16px;
+    background-position: 158px 50%;
+  }
+  input {
+    width: 256px;
+    height: 40px;
+    padding-left: 48px;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 140%;
+  }
+
+  input.input__email {
+    background-position: 16px 50%;
+  }
+
+  .input__form {
+    width: 256px;
+  }
+
+  .menu__returnPage {
+    margin-top: 32px;
+    cursor: pointer;
+  }
+
+  .menu_returnPage__group {
+    display: flex;
+    flex-direction: row;
+    gap: 0 16px;
+  }
+}
+@media screen and (min-width:560px ) {
+  .main-container{
+      background-size: auto;
+  }
+}

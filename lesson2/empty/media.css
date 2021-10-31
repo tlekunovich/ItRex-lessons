@@ -1,0 +1,64 @@
+@media screen and (max-width: 768px) {
+  .main-container {
+    width: 83%;
+  }
+  .input__search,
+  .sort__title,
+  .sort__item,
+  .srch-angle {
+    display: none;
+  }
+  .srch-sliders {
+    display: flex;
+  }
+  .sort__wrapper {
+    margin-left: 32px;
+  }
+  .mh__description {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .main-container {
+    width: 100%;
+  }
+
+  .logo {
+    height: 32px;
+    cursor: pointer;
+    margin-left: 24px;
+  }
+  .userInfo {
+    display: none;
+  }
+  .avatar {
+    margin-right: 24px;
+  }
+  .btn__block {
+    padding-left: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn {
+    width: 120px;
+  }
+  .title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+   
+  }
+  .search__block {
+    margin-top: 40px;
+    margin-left:24px;
+    margin-right:24px;
+  }
+  .search-wrapper {
+
+    margin-right: 0px;
+  }
+  .mh__description {
+    width: 70%;
+  }
+}
